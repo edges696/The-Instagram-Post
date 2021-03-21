@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+.maincard {
+    width: 525px;
+    height: 650px;
+    background-color: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.avatar {
+    display: inline-flex;
+    margin: 15px;
+    
+}
+
+.more {
+    margin: 20px;
+    float: right;
+}
+
+
+.username {
+    font-family: 'Rubik', sans-serif;
+    font-size: smaller;
+    margin-left: 5px;  
+}
+
+.icons {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.left {
+    width: 475px;
+    display: inline-flex;
+}
+
+.heart {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.chat {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.plane {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.right {
+    width: 50px
+}
+
+.likes {
+    height: 30px;
+    width: auto;
+    background-color: white;
+    font: black;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+.footer {
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+   font-family: 'Rubik', sans-serif;
+   font-size: smaller;
+}
